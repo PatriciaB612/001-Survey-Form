@@ -1,0 +1,54 @@
+body{
+  width:100%;
+  height:auto;
+  margin: 10 10 50 10;
+  background-color: #006683;
+  color: #f5f6f7;
+  font-family: Trebuchet MS;
+  font-size: 16px
+  }
+  
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+  width: 60vw; 
+  max-width:500px;
+  min-width: 300px; 
+  margin:0 auto;
+}
+
+fieldset {
+  border: none; 
+  padding:1em;
+  }
+
+label{
+  display:block; 
+  margin:0.5rem 0
+  }
+
+input, textarea, select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+.inline{
+  width:unset;
+  vertical-align:middle;
+  margin: 0 0.5em 0 0
+  }
+
+input[type="submit"]{
+  width:60%; 
+  display:block; 
+  margin:1em auto; 
+  font-size:1em; 
+  background-color:#b1b3b3; 
+  color:white; 
+  border-color:white; 
+  min-width: 80px;
+  }

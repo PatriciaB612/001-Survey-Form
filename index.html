@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">True Wellness Center Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve our services</p>
+    
+    <form id="survey-form">
+      <fieldset>
+       <label id="name-label">Name <input id="name" type="text" placeholder="Enter your name" required/></label>
+       <label id="email-label">Email <input id="email" type="email" placeholder="Enter your email" required/></label>
+       <label id="number-label">Age <input id="number" type="number" min="18" max="120" placeholder="Age"/></label>  
+       <label>Which of our services are you currently using? <select id="dropdown">
+         <option value="">Select an option</option>
+         <option value="1">Beauty Center and Spa</option>
+         <option value="2">Massage Therapy</option>
+         <option value="3">Integrative Medicine</option>
+         <option value="4">Nutritional Medicine</option>
+       </select></label>
+      </fieldset>
+      
+      <fieldset>
+        <label>Would you recommend True Wellness Center to a friend?</label>
+        <label><input class="inline" type="radio" name="recommendation" value="definitely" /> Definitely</label>
+        <label><input class="inline" type="radio" name="recommendation" value="maybe"/> Maybe </label>
+        <label><input class="inline" type="radio" name="recommendation" value="not sure" /> Not sure</label>
+      </fieldset>
+      
+      <fieldset>
+        <label>What would you like to see improved?</label>
+        <label><input class="inline" value="customer-service" type="checkbox"/>Costumer service </label>
+        <label><input class="inline" value="service-catalog" type="checkbox"/>Service Catalog</label>
+        <label><input class="inline" value="waiting-time" type="checkbox"/>Waiting time</label>
+        <label><input class="inline" value="medical-attention" type="checkbox"/>Medical attention</label>
+        <label><input class="inline" value="communication" type="checkbox"/>Communication via phone/whatsapp</label>
+      </fieldset>  
+      
+      <fieldset>
+        <label>Any comments or suggestions...</label>
+        <textarea placeholder="Enter your comment here..." cols="10"; rows="5";></textarea>
+      </fieldset>
+        
+      <input id="submit" type="submit"/>
+    </form>
+  </body>
+</html>
