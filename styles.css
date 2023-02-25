@@ -1,7 +1,6 @@
 body{
   width:100%;
-  height:auto;
-  margin: 10 10 50 10;
+  margin: 10;
   background-color: #006683;
   color: #f5f6f7;
   font-family: Trebuchet MS;
@@ -23,12 +22,12 @@ form {
 fieldset {
   border: none; 
   padding:1em;
-  }
+}
 
 label{
   display:block; 
   margin:0.5rem 0
-  }
+}
 
 input, textarea, select {
   margin: 10px 0 0 0;
@@ -40,7 +39,7 @@ input, textarea, select {
   width:unset;
   vertical-align:middle;
   margin: 0 0.5em 0 0
-  }
+}
 
 input[type="submit"]{
   width:60%; 
@@ -51,4 +50,4 @@ input[type="submit"]{
   color:white; 
   border-color:white; 
   min-width: 80px;
-  }
+}
